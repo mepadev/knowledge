@@ -1,5 +1,1568 @@
 {
-  "present_tense": {
-    
+  "Sentence Structure": {
+    "Basic Order": {
+      "challenges": [
+        {
+          "question": "What is the standard word order in English sentences?",
+          "options": {
+            "A": "Subject + Object + Verb",
+            "B": "Subject + Verb + Object",
+            "C": "Verb + Subject + Object",
+            "D": "Object + Verb + Subject"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the sentence that follows the standard English word order:",
+          "options": {
+            "A": "A letter writes she.",
+            "B": "Writes she a letter.",
+            "C": "She writes a letter.",
+            "D": "Writes a letter she."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Variations": {
+      "challenges": [
+        {
+          "question": "Which of the following is a correct interrogative sentence?",
+          "options": {
+            "A": "You do like coffee?",
+            "B": "Do you like coffee?",
+            "C": "Like do you coffee?",
+            "D": "Coffee you like do?"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which of the following is an imperative sentence?",
+          "options": {
+            "A": "She closes the door.",
+            "B": "Close the door.",
+            "C": "Does she close the door?",
+            "D": "Closed the door she has."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Parts of Speech": {
+    "Nouns": {
+      "challenges": [
+        {
+          "question": "Which of the following words is a noun?",
+          "options": {
+            "A": "Quickly",
+            "B": "Happy",
+            "C": "Happiness",
+            "D": "Run"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Select the word that is NOT a noun:",
+          "options": {
+            "A": "Cat",
+            "B": "London",
+            "C": "Think",
+            "D": "Idea"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Pronouns": {
+      "challenges": [
+        {
+          "question": "Identify the pronoun in the following sentence: 'She gave him the book.'",
+          "options": {
+            "A": "She",
+            "B": "Gave",
+            "C": "Him",
+            "D": "Book"
+          },
+          "correct_answer": ["A", "C"]
+        },
+        {
+          "question": "Which of the following is a pronoun?",
+          "options": {
+            "A": "They",
+            "B": "Beautiful",
+            "C": "Walk",
+            "D": "Happiness"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Verbs": {
+      "challenges": [
+        {
+          "question": "Choose the verb from the following options:",
+          "options": {
+            "A": "Cat",
+            "B": "Run",
+            "C": "Beautiful",
+            "D": "Quickly"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which word serves as a verb in the sentence: 'They think about the problem'?",
+          "options": {
+            "A": "They",
+            "B": "Think",
+            "C": "About",
+            "D": "Problem"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Adjectives": {
+      "challenges": [
+        {
+          "question": "Which word is an adjective?",
+          "options": {
+            "A": "Run",
+            "B": "Happiness",
+            "C": "Large",
+            "D": "Slowly"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "In the sentence 'The red car is fast', which word is the adjective?",
+          "options": {
+            "A": "Red",
+            "B": "Car",
+            "C": "Fast",
+            "D": "Is"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Adverbs": {
+      "challenges": [
+        {
+          "question": "Identify the adverb in the sentence: 'She sings beautifully.'",
+          "options": {
+            "A": "She",
+            "B": "Sings",
+            "C": "Beautifully",
+            "D": "Song"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which of the following words is an adverb?",
+          "options": {
+            "A": "Quickly",
+            "B": "Happy",
+            "C": "Apple",
+            "D": "Run"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Prepositions": {
+      "challenges": [
+        {
+          "question": "Select the preposition in the sentence: 'The book is on the table.'",
+          "options": {
+            "A": "Book",
+            "B": "Is",
+            "C": "On",
+            "D": "Table"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which of these words is a preposition?",
+          "options": {
+            "A": "And",
+            "B": "By",
+            "C": "Happy",
+            "D": "Run"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Conjunctions": {
+      "challenges": [
+        {
+          "question": "Which word is a conjunction?",
+          "options": {
+            "A": "Because",
+            "B": "Run",
+            "C": "Happy",
+            "D": "Quickly"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Identify the conjunction in the sentence: 'I wanted to go, but it was raining.'",
+          "options": {
+            "A": "Wanted",
+            "B": "Go",
+            "C": "But",
+            "D": "Raining"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Interjections": {
+      "challenges": [
+        {
+          "question": "Which of the following is an interjection?",
+          "options": {
+            "A": "Ouch!",
+            "B": "Run",
+            "C": "She",
+            "D": "Apple"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Select the interjection from the sentence: 'Wow! That was amazing.'",
+          "options": {
+            "A": "Wow!",
+            "B": "That",
+            "C": "Was",
+            "D": "Amazing"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Articles": {
+      "challenges": [
+        {
+          "question": "Which word is an indefinite article?",
+          "options": {
+            "A": "The",
+            "B": "An",
+            "C": "Is",
+            "D": "Are"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the definite article in the sentence: 'The cat sat on a mat.'",
+          "options": {
+            "A": "The",
+            "B": "Cat",
+            "C": "A",
+            "D": "Mat"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Subject-Verb Agreement": {
+    "Singular and Plural": {
+      "challenges": [
+        {
+          "question": "Choose the correct verb to complete the sentence: 'She ____ every day.'",
+          "options": {
+            "A": "run",
+            "B": "runs",
+            "C": "running",
+            "D": "ran"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the correct form: 'They ____ happy.'",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "was",
+            "D": "be"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Collective Nouns": {
+      "challenges": [
+        {
+          "question": "Select the correct verb: 'The team ____ winning the game.'",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "were",
+            "D": "be"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which is correct: 'Everyone ____ here.'",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "were",
+            "D": "be"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Tenses": {
+    "Present Tense": {
+      "challenges": [
+        {
+          "question": "Identify the sentence in simple present tense:",
+          "options": {
+            "A": "She walks to school.",
+            "B": "She walked to school.",
+            "C": "She will walk to school.",
+            "D": "She is walking to school."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Past Tense": {
+      "challenges": [
+        {
+          "question": "Which sentence is in simple past tense?",
+          "options": {
+            "A": "He runs fast.",
+            "B": "He ran fast.",
+            "C": "He will run fast.",
+            "D": "He is running fast."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Future Tense": {
+      "challenges": [
+        {
+          "question": "Choose the sentence in simple future tense:",
+          "options": {
+            "A": "They play soccer.",
+            "B": "They played soccer.",
+            "C": "They will play soccer.",
+            "D": "They are playing soccer."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Perfect Tenses": {
+      "challenges": [
+        {
+          "question": "Identify the sentence in present perfect tense:",
+          "options": {
+            "A": "I walk to the store.",
+            "B": "I walked to the store.",
+            "C": "I have walked to the store.",
+            "D": "I will walk to the store."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which sentence is in past perfect tense?",
+          "options": {
+            "A": "They had finished the project.",
+            "B": "They have finished the project.",
+            "C": "They will have finished the project.",
+            "D": "They finish the project."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Modifiers": {
+    "Adjectives": {
+      "challenges": [
+        {
+          "question": "Where should adjectives be placed in a sentence?",
+          "options": {
+            "A": "After the noun they modify",
+            "B": "Before the noun they modify",
+            "C": "At the end of the sentence",
+            "D": "Anywhere in the sentence"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Select the correct sentence:",
+          "options": {
+            "A": "She has a red beautiful dress.",
+            "B": "She has a beautiful red dress.",
+            "C": "She has a dress beautiful red.",
+            "D": "She has red a beautiful dress."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Adverbs": {
+      "challenges": [
+        {
+          "question": "Adverbs modify:",
+          "options": {
+            "A": "Nouns only",
+            "B": "Verbs, adjectives, or other adverbs",
+            "C": "Pronouns",
+            "D": "Prepositions"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the adverb in the sentence: 'He drives very fast.'",
+          "options": {
+            "A": "He",
+            "B": "Drives",
+            "C": "Very",
+            "D": "Fast"
+          },
+          "correct_answer": ["C", "D"]
+        }
+      ]
+    }
+  },
+  "Sentence Types": {
+    "Declarative": {
+      "challenges": [
+        {
+          "question": "Which sentence is declarative?",
+          "options": {
+            "A": "Close the door.",
+            "B": "What time is it?",
+            "C": "I enjoy reading books.",
+            "D": "How exciting!"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Interrogative": {
+      "challenges": [
+        {
+          "question": "Identify the interrogative sentence:",
+          "options": {
+            "A": "Please pass the salt.",
+            "B": "She is a teacher.",
+            "C": "Is she a teacher?",
+            "D": "What a beautiful day!"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Imperative": {
+      "challenges": [
+        {
+          "question": "Which of these is an imperative sentence?",
+          "options": {
+            "A": "You should study hard.",
+            "B": "Study hard!",
+            "C": "He studies hard.",
+            "D": "Does he study hard?"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Exclamatory": {
+      "challenges": [
+        {
+          "question": "Select the exclamatory sentence:",
+          "options": {
+            "A": "I can't believe it!",
+            "B": "Can you believe it?",
+            "C": "Believe it or not.",
+            "D": "He believes it."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Clauses and Phrases": {
+    "Independent Clause": {
+      "challenges": [
+        {
+          "question": "Which of the following is an independent clause?",
+          "options": {
+            "A": "While she was sleeping",
+            "B": "Because he was late",
+            "C": "I enjoy reading",
+            "D": "After the movie ended"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Dependent Clause": {
+      "challenges": [
+        {
+          "question": "Identify the dependent clause:",
+          "options": {
+            "A": "She went home",
+            "B": "Although it was raining",
+            "C": "They are here",
+            "D": "I like pizza"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Phrase": {
+      "challenges": [
+        {
+          "question": "Which of the following is a phrase?",
+          "options": {
+            "A": "He runs fast",
+            "B": "Under the bridge",
+            "C": "She sings beautifully",
+            "D": "They will arrive soon"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Use of Articles": {
+    "Indefinite Articles": {
+      "challenges": [
+        {
+          "question": "Choose the correct article: 'She has ____ umbrella.'",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "no article"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Select the correct sentence:",
+          "options": {
+            "A": "He is an honest man.",
+            "B": "He is a honest man.",
+            "C": "He is the honest man.",
+            "D": "He is honest man."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Definite Article": {
+      "challenges": [
+        {
+          "question": "Fill in the blank: '___ sun rises in the east.'",
+          "options": {
+            "A": "A",
+            "B": "An",
+            "C": "The",
+            "D": "No article"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which sentence uses the definite article correctly?",
+          "options": {
+            "A": "She plays a piano.",
+            "B": "She plays an piano.",
+            "C": "She plays the piano.",
+            "D": "She plays piano."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  },
+  "Prepositions": {
+    "Time Prepositions": {
+      "challenges": [
+        {
+          "question": "Choose the correct preposition: 'We will meet ___ noon.'",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on",
+            "D": "by"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Select the correct sentence:",
+          "options": {
+            "A": "She arrived in Monday.",
+            "B": "She arrived on Monday.",
+            "C": "She arrived at Monday.",
+            "D": "She arrived by Monday."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Place Prepositions": {
+      "challenges": [
+        {
+          "question": "Fill in the blank: 'The cat is ___ the box.'",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "by"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which preposition completes the sentence: 'She stood ___ the door.'",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "by"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Direction Prepositions": {
+      "challenges": [
+        {
+          "question": "Choose the correct preposition: 'They are going ___ the park.'",
+          "options": {
+            "A": "to",
+            "B": "from",
+            "C": "by",
+            "D": "in"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Fill in the blank: 'She came ___ the store.'",
+          "options": {
+            "A": "to",
+            "B": "from",
+            "C": "by",
+            "D": "in"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Punctuation": {
+    "End Marks": {
+      "challenges": [
+        {
+          "question": "Which punctuation mark is used at the end of a declarative sentence?",
+          "options": {
+            "A": "Question Mark (?)",
+            "B": "Exclamation Point (!)",
+            "C": "Period (.)",
+            "D": "Comma (,)"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Identify the correct punctuation for an interrogative sentence:",
+          "options": {
+            "A": "She is here.",
+            "B": "She is here!",
+            "C": "She is here?",
+            "D": "She is here,"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Commas": {
+      "challenges": [
+        {
+          "question": "Where should the comma go in this sentence: 'I bought apples oranges and bananas.'",
+          "options": {
+            "A": "After 'apples'",
+            "B": "After 'oranges'",
+            "C": "After 'bananas'",
+            "D": "Both A and B"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question": "Select the sentence with correct comma usage:",
+          "options": {
+            "A": "Yes I can help you.",
+            "B": "Yes, I can help you.",
+            "C": "Yes I, can help you.",
+            "D": "Yes I can, help you."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Apostrophes": {
+      "challenges": [
+        {
+          "question": "Which sentence shows possession correctly?",
+          "options": {
+            "A": "Thats John's book.",
+            "B": "That's Johns book.",
+            "C": "That's John's book.",
+            "D": "Thats Johns' book."
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Identify the contraction in the sentence: 'It's going to rain.'",
+          "options": {
+            "A": "It is",
+            "B": "Its",
+            "C": "It's",
+            "D": "Going"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Quotation Marks": {
+      "challenges": [
+        {
+          "question": "Which sentence uses quotation marks correctly?",
+          "options": {
+            "A": "She said, Hello.",
+            "B": "She said, 'Hello.'",
+            "C": "She said, Hello.",
+            "D": "She said Hello."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the sentence with correct punctuation:",
+          "options": {
+            "A": "'What time is it?' he asked.",
+            "B": "What time is it? he asked.",
+            "C": "'What time is it? he asked.'",
+            "D": "What time is it? he asked.'"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Active vs. Passive Voice": {
+    "Active Voice": {
+      "challenges": [
+        {
+          "question": "Which sentence is in active voice?",
+          "options": {
+            "A": "The ball was kicked by the boy.",
+            "B": "The boy kicked the ball.",
+            "C": "The ball is being kicked.",
+            "D": "The ball had been kicked."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the active sentence:",
+          "options": {
+            "A": "The song was sung by her.",
+            "B": "The cake was baked by him.",
+            "C": "She wrote the letter.",
+            "D": "The letter was written."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Passive Voice": {
+      "challenges": [
+        {
+          "question": "Select the sentence in passive voice:",
+          "options": {
+            "A": "They are building a house.",
+            "B": "A house is being built by them.",
+            "C": "They built a house.",
+            "D": "They have built a house."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which sentence is passive?",
+          "options": {
+            "A": "She is reading a book.",
+            "B": "A book is being read by her.",
+            "C": "She reads books.",
+            "D": "She has read the book."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Direct and Indirect Speech": {
+    "Direct Speech": {
+      "challenges": [
+        {
+          "question": "Identify the direct speech sentence:",
+          "options": {
+            "A": "He said that he was tired.",
+            "B": "He said, 'I am tired.'",
+            "C": "He told me he is tired.",
+            "D": "He mentioned his tiredness."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which sentence uses direct speech?",
+          "options": {
+            "A": "She asked if I was coming.",
+            "B": "She said she would be late.",
+            "C": "She said, 'I will be late.'",
+            "D": "She informed me about her delay."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Indirect Speech": {
+      "challenges": [
+        {
+          "question": "Convert to indirect speech: 'He said, 'I am hungry.''",
+          "options": {
+            "A": "He said that he is hungry.",
+            "B": "He said that he was hungry.",
+            "C": "He says he is hungry.",
+            "D": "He said he has been hungry."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the indirect speech sentence:",
+          "options": {
+            "A": "She said, 'I will help you.'",
+            "B": "She said that she would help me.",
+            "C": "She says she will help me.",
+            "D": "She is helping me."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Conditional Sentences": {
+    "Zero Conditional": {
+      "challenges": [
+        {
+          "question": "Which sentence is a zero conditional?",
+          "options": {
+            "A": "If it rains, we will cancel the trip.",
+            "B": "If you heat ice, it melts.",
+            "C": "If I had money, I would travel.",
+            "D": "If she had studied, she would have passed."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "First Conditional": {
+      "challenges": [
+        {
+          "question": "Identify the first conditional sentence:",
+          "options": {
+            "A": "If it rains, we will cancel the trip.",
+            "B": "If I were you, I would apologize.",
+            "C": "If she had called, I would have answered.",
+            "D": "If you mix red and blue, you get purple."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Second Conditional": {
+      "challenges": [
+        {
+          "question": "Select the second conditional sentence:",
+          "options": {
+            "A": "If you study, you will pass.",
+            "B": "If I had a car, I would drive to work.",
+            "C": "If she had known, she would have told us.",
+            "D": "If it is sunny, we go to the beach."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Third Conditional": {
+      "challenges": [
+        {
+          "question": "Which sentence is a third conditional?",
+          "options": {
+            "A": "If I have time, I will help you.",
+            "B": "If he were here, he would help.",
+            "C": "If they had left earlier, they would have arrived on time.",
+            "D": "If you press this button, the light turns on."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  },
+  "Question Formation": {
+    "Yes/No Questions": {
+      "challenges": [
+        {
+          "question": "Form a yes/no question: 'You are coming.'",
+          "options": {
+            "A": "Are you coming?",
+            "B": "You are coming?",
+            "C": "Do you are coming?",
+            "D": "Coming you are?"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "WH- Questions": {
+      "challenges": [
+        {
+          "question": "Which word is a WH-question word?",
+          "options": {
+            "A": "Can",
+            "B": "Should",
+            "C": "Where",
+            "D": "Will"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Form a WH-question from 'She lives in London.'",
+          "options": {
+            "A": "Where does she live?",
+            "B": "Does she live in London?",
+            "C": "She lives where?",
+            "D": "Where she lives?"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Subject Questions": {
+      "challenges": [
+        {
+          "question": "Identify the subject question:",
+          "options": {
+            "A": "What did she eat?",
+            "B": "Who wrote this book?",
+            "C": "Where are they going?",
+            "D": "Why did he leave?"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Word Order": {
+    "Adjectives": {
+      "challenges": [
+        {
+          "question": "Arrange the adjectives correctly: 'She bought a (red, beautiful) dress.'",
+          "options": {
+            "A": "Beautiful red",
+            "B": "Red beautiful",
+            "C": "Beautiful and red",
+            "D": "Red and beautiful"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Adverbs of Frequency": {
+      "challenges": [
+        {
+          "question": "Where should the adverb of frequency be placed: 'She arrives early always.'",
+          "options": {
+            "A": "Before 'arrives'",
+            "B": "After 'arrives'",
+            "C": "At the beginning",
+            "D": "At the end"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Select the correct sentence:",
+          "options": {
+            "A": "She always arrives early.",
+            "B": "Always she arrives early.",
+            "C": "She arrives always early.",
+            "D": "She arrives early always."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Place and Time": {
+      "challenges": [
+        {
+          "question": "In which order should place and time be arranged?",
+          "options": {
+            "A": "Time before place",
+            "B": "Place before time",
+            "C": "Either way is correct",
+            "D": "Place and time together"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "options": {
+            "A": "We met yesterday at the park.",
+            "B": "We met at the park yesterday.",
+            "C": "Yesterday we met at the park.",
+            "D": "At the park we met yesterday."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Conjunctions": {
+    "Coordinating Conjunctions": {
+      "challenges": [
+        {
+          "question": "Which of the following is a coordinating conjunction?",
+          "options": {
+            "A": "Because",
+            "B": "And",
+            "C": "Although",
+            "D": "Unless"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the coordinating conjunction in the sentence: 'She likes tea and coffee.'",
+          "options": {
+            "A": "She",
+            "B": "Likes",
+            "C": "Tea",
+            "D": "And"
+          },
+          "correct_answer": "D"
+        }
+      ]
+    },
+    "Subordinating Conjunctions": {
+      "challenges": [
+        {
+          "question": "Select the subordinating conjunction:",
+          "options": {
+            "A": "But",
+            "B": "Or",
+            "C": "Because",
+            "D": "And"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which sentence contains a subordinating conjunction?",
+          "options": {
+            "A": "I want to go, but it's late.",
+            "B": "She stayed home because she was sick.",
+            "C": "Do you want tea or coffee?",
+            "D": "He is tall and strong."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Correlative Conjunctions": {
+      "challenges": [
+        {
+          "question": "Which of the following is a pair of correlative conjunctions?",
+          "options": {
+            "A": "Neither...nor",
+            "B": "Because...so",
+            "C": "If...then",
+            "D": "Since...yet"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Complete the sentence: 'She is ___ intelligent ___ hardworking.'",
+          "options": {
+            "A": "both...and",
+            "B": "either...or",
+            "C": "neither...nor",
+            "D": "not only...but also"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Relative Clauses": {
+    "Relative Pronouns": {
+      "challenges": [
+        {
+          "question": "Which relative pronoun is used for people?",
+          "options": {
+            "A": "Which",
+            "B": "Who",
+            "C": "That",
+            "D": "Where"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the relative pronoun in the sentence: 'The book that I borrowed was interesting.'",
+          "options": {
+            "A": "The",
+            "B": "Book",
+            "C": "That",
+            "D": "Borrowed"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Restrictive vs. Non-Restrictive": {
+      "challenges": [
+        {
+          "question": "Non-restrictive clauses are set off by:",
+          "options": {
+            "A": "Semicolons",
+            "B": "Commas",
+            "C": "Colons",
+            "D": "Periods"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Choose the sentence with a non-restrictive clause:",
+          "options": {
+            "A": "My brother who lives in Canada is visiting.",
+            "B": "My brother, who lives in Canada, is visiting.",
+            "C": "The car that is red is mine.",
+            "D": "The students who study hard get good grades."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Gerunds and Infinitives": {
+    "Gerunds": {
+      "challenges": [
+        {
+          "question": "Identify the gerund in the sentence: 'Swimming is fun.'",
+          "options": {
+            "A": "Swimming",
+            "B": "Is",
+            "C": "Fun",
+            "D": "Swim"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which sentence uses a gerund?",
+          "options": {
+            "A": "I like to swim.",
+            "B": "I enjoy swimming.",
+            "C": "She wants to dance.",
+            "D": "They decided to leave."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Infinitives": {
+      "challenges": [
+        {
+          "question": "Select the infinitive phrase:",
+          "options": {
+            "A": "Running fast",
+            "B": "To run fast",
+            "C": "Ran fast",
+            "D": "Runs fast"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which sentence contains an infinitive?",
+          "options": {
+            "A": "He likes reading.",
+            "B": "To read is enjoyable.",
+            "C": "Reading is enjoyable.",
+            "D": "He enjoys reading."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Pronoun Usage": {
+    "Subjective Case": {
+      "challenges": [
+        {
+          "question": "Choose the correct pronoun: '___ am going to the store.'",
+          "options": {
+            "A": "Me",
+            "B": "I",
+            "C": "My",
+            "D": "Mine"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the subjective pronoun:",
+          "options": {
+            "A": "Us",
+            "B": "Them",
+            "C": "They",
+            "D": "Her"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Objective Case": {
+      "challenges": [
+        {
+          "question": "Select the correct pronoun: 'The teacher called ___.'",
+          "options": {
+            "A": "I",
+            "B": "Me",
+            "C": "My",
+            "D": "Mine"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which pronoun is in the objective case?",
+          "options": {
+            "A": "We",
+            "B": "He",
+            "C": "Us",
+            "D": "They"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    },
+    "Possessive Case": {
+      "challenges": [
+        {
+          "question": "Identify the possessive pronoun: 'That book is ___.'",
+          "options": {
+            "A": "I",
+            "B": "Me",
+            "C": "Mine",
+            "D": "My"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which sentence uses a possessive pronoun correctly?",
+          "options": {
+            "A": "This is her's car.",
+            "B": "This is hers car.",
+            "C": "This car is hers.",
+            "D": "This car is her."
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  },
+  "Avoiding Double Negatives": {
+    "Double Negatives": {
+      "challenges": [
+        {
+          "question": "Which sentence correctly avoids a double negative?",
+          "options": {
+            "A": "I don't have no money.",
+            "B": "I don't have any money.",
+            "C": "I have no money.",
+            "D": "Both B and C"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question": "Identify the sentence with a double negative:",
+          "options": {
+            "A": "She didn't see nobody.",
+            "B": "She saw nobody.",
+            "C": "She didn't see anybody.",
+            "D": "She saw somebody."
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
+  },
+  "Comparatives and Superlatives": {
+    "Comparatives": {
+      "challenges": [
+        {
+          "question": "Form the comparative of 'tall':",
+          "options": {
+            "A": "Taller",
+            "B": "Tallest",
+            "C": "More tall",
+            "D": "Most tall"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Select the correct sentence:",
+          "options": {
+            "A": "She is more smarter than her sister.",
+            "B": "She is smarter than her sister.",
+            "C": "She is smartest than her sister.",
+            "D": "She is most smart than her sister."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Superlatives": {
+      "challenges": [
+        {
+          "question": "Form the superlative of 'good':",
+          "options": {
+            "A": "Gooder",
+            "B": "Goodest",
+            "C": "Best",
+            "D": "Better"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Identify the superlative sentence:",
+          "options": {
+            "A": "She is the taller of the two.",
+            "B": "She is the tallest in the class.",
+            "C": "She is taller than her sister.",
+            "D": "She is tall."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Parallel Structure": {
+    "Parallelism": {
+      "challenges": [
+        {
+          "question": "Which sentence uses parallel structure correctly?",
+          "options": {
+            "A": "He likes swimming, running, and to bike.",
+            "B": "He likes swimming, running, and biking.",
+            "C": "He likes to swim, run, and biking.",
+            "D": "He likes swimming, to run, and biking."
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the sentence with faulty parallelism:",
+          "options": {
+            "A": "She enjoys reading, writing, and painting.",
+            "B": "She enjoys reading, to write, and painting.",
+            "C": "She enjoys reading, writing, and painting.",
+            "D": "She enjoys to read, to write, and to paint."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Idiomatic Expressions": {
+    "Common Idioms": {
+      "challenges": [
+        {
+          "question": "What does 'look forward to' mean?",
+          "options": {
+            "A": "To expect something with pleasure",
+            "B": "To search ahead",
+            "C": "To ignore something",
+            "D": "To look straight ahead"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Choose the correct use of 'depend on':",
+          "options": {
+            "A": "I depend of you.",
+            "B": "I depend on you.",
+            "C": "I depend with you.",
+            "D": "I depend to you."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Capitalization": {
+    "Proper Nouns": {
+      "challenges": [
+        {
+          "question": "Which word should be capitalized?",
+          "options": {
+            "A": "january",
+            "B": "monday",
+            "C": "sarah",
+            "D": "All of the above"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question": "Identify the correctly capitalized sentence:",
+          "options": {
+            "A": "She lives in london.",
+            "B": "She lives in London.",
+            "C": "She lives in london.",
+            "D": "She lives in london."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    },
+    "Titles": {
+      "challenges": [
+        {
+          "question": "Capitalize the major words in the title: 'the great gatsby'",
+          "options": {
+            "A": "The Great Gatsby",
+            "B": "The great Gatsby",
+            "C": "The Great gatsby",
+            "D": "the Great Gatsby"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which words should be capitalized in a title?",
+          "options": {
+            "A": "First word only",
+            "B": "All words",
+            "C": "Major words",
+            "D": "No words"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  },
+  "Numbers": {
+    "Number Usage": {
+      "challenges": [
+        {
+          "question": "How should numbers from one to nine be written?",
+          "options": {
+            "A": "As numerals",
+            "B": "Spelled out",
+            "C": "Either way",
+            "D": "Roman numerals"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Identify the correct sentence:",
+          "options": {
+            "A": "I have 3 dogs and twelve cats.",
+            "B": "I have three dogs and 12 cats.",
+            "C": "I have three dogs and twelve cats.",
+            "D": "I have 3 dogs and 12 cats."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Homophones and Homonyms": {
+    "Correct Usage": {
+      "challenges": [
+        {
+          "question": "Choose the correct word: 'I want ___ go.'",
+          "options": {
+            "A": "to",
+            "B": "too",
+            "C": "two",
+            "D": "tow"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Select the correct sentence:",
+          "options": {
+            "A": "Their going to the park.",
+            "B": "They're going to the park.",
+            "C": "There going to the park.",
+            "D": "Theyre going to the park."
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Prefixes and Suffixes": {
+    "Word Formation": {
+      "challenges": [
+        {
+          "question": "Add a prefix to make 'happy' negative:",
+          "options": {
+            "A": "Unhappy",
+            "B": "Rehappy",
+            "C": "Prehappy",
+            "D": "Inhappy"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which word uses a suffix correctly?",
+          "options": {
+            "A": "Quicknessly",
+            "B": "Quickly",
+            "C": "Quickable",
+            "D": "Quickness"
+          },
+          "correct_answer": "B"
+        }
+      ]
+    }
+  },
+  "Emphasis and Style": {
+    "Proper Emphasis": {
+      "challenges": [
+        {
+          "question": "Which sentence uses emphasis correctly?",
+          "options": {
+            "A": "THIS IS IMPORTANT!",
+            "B": "This is important.",
+            "C": "**This is important.**",
+            "D": "This is important!!!"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Identify the sentence with appropriate style:",
+          "options": {
+            "A": "Please read the report.",
+            "B": "PLEASE READ THE REPORT!",
+            "C": "Please read the report!!!",
+            "D": "Please read the report!!!"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    }
   }
 }

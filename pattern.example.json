@@ -1,19 +1,46 @@
 {
   "subject_1": {
-    "challenges": {
-
-    }
+    "challenges": [
+      {
+        "question": "",
+        "options": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "correct_answer": ""
+      }
+    ]
   },
   "subject_2": {
     "subject_2a": {
-      "challenges": {
-        
-      }
+      "challenges": [
+        {
+          "question": "",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "correct_answer": ""
+        }
+      ]
     },
     "subject_2b": {
-      "challenges": {
-  
-      }
+      "challenges": [
+        {
+          "question": "",
+          "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "correct_answer": ""
+        }
+      ]
     }
   }
 }
